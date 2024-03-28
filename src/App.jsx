@@ -34,7 +34,7 @@ function App() {
         <strong>
           {/*  Adding date */}
           {new Date().toLocaleDateString()} {/* Adding Day */}
-          {new Date().toDateString().split(" ")[0]}day
+          {new Date().toDateString().split(" ")[0]}
         </strong>
       </h3>
     </>
